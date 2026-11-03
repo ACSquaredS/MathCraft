@@ -17,13 +17,12 @@
 
 Dependencies flow downward: a module depends only on the layers above it in this table, never on a module that depends on it.
 
-## Planned additions
+## Additional modules
 
-These repositories are proposed and do not exist yet:
+- [MathLanguage](https://github.com/ACSquaredS/MathLanguage): the scripting language. Python is the user-facing surface and a Rust core handles parsing and execution.
+- [MathIO](https://github.com/ACSquaredS/MathIO): reading and writing data files (CSV, JSON, binary formats).
 
-- **MathLanguage**: parser and interpreter for the MathCraft scripting language. This is the piece that makes MathCraft usable as a language.
-- **MathIO**: reading and writing data files (CSV, JSON, binary formats).
-- **MathApp**: command-line REPL and, later, a graphical interface.
+Planned for later, not yet started: a command-line REPL and a graphical interface.
 
 ## Contributing
 
